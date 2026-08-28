@@ -21,9 +21,9 @@ versatiles-frontend:
             custom server instead of plain `python -m http.server`).
         require:
             - '@github.com/opencharly/layer-supervisord:v2026.235.2056'
-            - versatiles-style # the http.server re-exports its bundle at /style/
-            - versatiles-fonts # re-exported at /fonts/
-            - maplibre-versatiles-styler # re-exported at /styler/
+            - '@github.com/opencharly/layer-versatiles-style:v2026.239.1628' # the http.server re-exports its bundle at /style/
+            - '@github.com/opencharly/layer-versatiles-fonts:v2026.240.0122' # re-exported at /fonts/
+            - '@github.com/opencharly/layer-maplibre-versatiles-styler:v2026.240.0120' # re-exported at /styler/
         distro:
             arch:
                 package:
@@ -342,3 +342,4 @@ versatiles-frontend-skill:
             - `/charly-versa:maputnik-layer` — sibling static-SPA layer (port 28000)
             - `/charly-versa:notebook-osm` — the shortbread MapLibre cell that loads
               the re-exported versatiles-style bundle via this layer's http.server
+# Phase-4 standalone-repo sweep: bare-name refs converted to @github
