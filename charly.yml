@@ -342,3 +342,4 @@ versatiles-frontend-skill:
             - `/charly-versa:maputnik-layer` — sibling static-SPA layer (port 28000)
             - `/charly-versa:notebook-osm` — the shortbread MapLibre cell that loads
               the re-exported versatiles-style bundle via this layer's http.server
+// Phase-4 standalone-repo sweep: bare-name refs converted to @github
