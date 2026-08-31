@@ -1,7 +1,7 @@
 version: 2026.232.0520
 versatiles-frontend:
     candy:
-        version: 2026.243.0100
+        version: 2026.243.0900
         description: |
             VersaTiles frontend SPA served by a permissive-CORS static server on port 8002 (host 28002), re-exporting the style/fonts/styler bundles single-origin
             The pre-built versatiles-org/versatiles-frontend TypeScript SPA (the
