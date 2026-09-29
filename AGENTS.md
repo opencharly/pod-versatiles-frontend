@@ -22,6 +22,8 @@ Canonical files:
 - `/charly-versa:versatiles` — the tile-server backend the frontend connects to.
 - `/charly-versa:pmtiles-viewer`, `/charly-versa:maputnik-layer` — sibling
   static-SPA layers.
+- `/charly-pod:pod` — the `kind: pod` / deploy schema reference (this candy is
+  composed into a box; services, ports).
 - `/charly-image:layer` — the candy authoring reference (`charly.yml` schema,
   `plan:` step verbs incl. `run:` / `write:` / `check:`, service declarations).
 - `/charly-check:check` — the check/R10 framework (`charly check box`,
