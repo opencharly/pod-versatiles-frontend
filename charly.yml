@@ -19,9 +19,9 @@ versatiles-frontend:
             custom server instead of plain `python -m http.server`).
         require:
             - '@github.com/opencharly/layer-supervisord:v2026.271.1817'
-            - '@github.com/opencharly/layer-versatiles-style:v2026.272.0417' # the http.server re-exports its bundle at /style/
-            - '@github.com/opencharly/layer-versatiles-fonts:v2026.272.0425' # re-exported at /fonts/
-            - '@github.com/opencharly/layer-maplibre-versatiles-styler:v2026.272.0321' # re-exported at /styler/
+            - '@github.com/opencharly/layer-versatiles-style:v2026.274.0626' # the http.server re-exports its bundle at /style/
+            - '@github.com/opencharly/layer-versatiles-fonts:v2026.274.0612' # re-exported at /fonts/
+            - '@github.com/opencharly/layer-maplibre-versatiles-styler:v2026.274.0641' # re-exported at /styler/
         distro:
             arch:
                 package:
